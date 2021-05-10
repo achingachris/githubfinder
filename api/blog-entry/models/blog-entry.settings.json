@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_entries",
+  "info": {
+    "name": "Blog Entry"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "entry": {
+      "type": "richtext"
+    }
+  }
+}
